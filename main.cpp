@@ -136,8 +136,6 @@ void reassemble(const char* config_fname) {
 
 int main(int argc, char** argv) {
     std::cout << "Crumble" << std::endl;
-    std::cout << "\tIt's just the way the cookie crumbles..." << std::endl;
-    std::cout << "---------------------------------------------------------" << std::endl;
     if (argc < 3) {
         std::cout << "[Error] Incorrect Usage" << std::endl;
         std::cout << "\tCorrect Usage: (<split/reassemble>) (<filename/config file>) (<number of parts>)" << std::endl;
